@@ -37,6 +37,9 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#link1">Link 1</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
@@ -54,7 +57,7 @@
   </nav>
 
   <!-- Masthead -->
-  <header class="masthead zoom" id="parallax">
+  <header class="masthead zoom parallax">
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
@@ -68,65 +71,175 @@
       </div>
     </div>
   </header>
+  <!--Booking Section-->
 
-  <!-- About Section -->
-  <section class="page-section bg-primary" id="about">
+  <div class="book-now-area">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="text-white mt-0">We've got what you need!</h2>
-          <hr class="divider light my-4">
-          <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
-          <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+        <div class="col-12 col-lg-10">
+          <div class="book-now-form">
+            <form action="#">
+              <!-- Form Group -->
+              <div class="form-group">
+                <label for="select1">Check In</label>
+                <select class="form-control" id="select1">
+                                  <option>19 June</option>
+                                  <option>20 June</option>
+                                  <option>21 June</option>
+                                  <option>22 June</option>
+                                  <option>23 June</option>
+                                  <option>24 June</option>
+                                  <option>25 June</option>
+                                </select>
+              </div>
+
+              <!-- Form Group -->
+              <div class="form-group">
+                <label for="select2">Check Out</label>
+                <select class="form-control" id="select2">
+                                  <option>20 June</option>
+                                  <option>21 June</option>
+                                  <option>22 June</option>
+                                  <option>23 June</option>
+                                  <option>24 June</option>
+                                  <option>25 June</option>
+                                  <option>26 June</option>
+                                  <option>27 June</option>
+                                </select>
+              </div>
+
+              <!-- Form Group -->
+              <div class="form-group">
+                <label for="select3">Adults</label>
+                <select class="form-control" id="select3">
+                                  <option>02</option>
+                                  <option>03</option>
+                                  <option>04</option>
+                                  <option>05</option>
+                                  <option>06</option>
+                                </select>
+              </div>
+
+              <!-- Form Group -->
+              <div class="form-group">
+                <label for="select4">Childrens</label>
+                <select class="form-control" id="select4">
+                                  <option>01</option>
+                                  <option>02</option>
+                                  <option>03</option>
+                                  <option>04</option>
+                                  <option>05</option>
+                                </select>
+              </div>
+
+              <!-- Button -->
+              <button type="submit">Book Now</button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
-  </section>
 
-  <!-- Services Section -->
-  <section class="page-section" id="services">
-    <div class="container">
-      <h2 class="text-center mt-0">At Your Service</h2>
-      <hr class="divider my-4">
+    <!--3 col examples-->
+    <div class="container" id="link1">
+      <h1 class="my-4">Page Heading
+        <small>Secondary Text</small>
+      </h1>
       <div class="row">
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Sturdy Themes</h3>
-            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top parallax" src="../img/img1.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Project One</a>
+              </h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Up to Date</h3>
-            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="../img/img2.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Project Two</a>
+              </h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Ready to Publish</h3>
-            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Made with Love</h3>
-            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="../img/img3.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Project Three</a>
+              </h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+    <!-- About Section -->
+    <section class="page-section bg-primary" id="about">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 class="text-white mt-0">We've got what you need!</h2>
+            <hr class="divider light my-4">
+            <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <!-- Portfolio Section -->
-  <section id="portfolio">
-    <div class="container-fluid p-0">
-      <div class="row no-gutters">
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+    <!-- Services Section -->
+    <section class="page-section" id="services">
+      <div class="container">
+        <h2 class="text-center mt-0">At Your Service</h2>
+        <hr class="divider my-4">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <i class="fas fa-4x fa-gem text-primary mb-4"></i>
+              <h3 class="h4 mb-2">Sturdy Themes</h3>
+              <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
+              <h3 class="h4 mb-2">Up to Date</h3>
+              <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <i class="fas fa-4x fa-globe text-primary mb-4"></i>
+              <h3 class="h4 mb-2">Ready to Publish</h3>
+              <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <i class="fas fa-4x fa-heart text-primary mb-4"></i>
+              <h3 class="h4 mb-2">Made with Love</h3>
+              <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up">BOOK NOW</span></a>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
@@ -137,9 +250,9 @@
               </div>
             </div>
           </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
@@ -150,9 +263,9 @@
               </div>
             </div>
           </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
@@ -163,9 +276,9 @@
               </div>
             </div>
           </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
@@ -176,9 +289,9 @@
               </div>
             </div>
           </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
@@ -189,9 +302,9 @@
               </div>
             </div>
           </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
             <div class="portfolio-box-caption p-3">
               <div class="project-category text-white-50">
@@ -202,60 +315,61 @@
               </div>
             </div>
           </a>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Call to Action Section -->
-  <section class="page-section bg-dark text-white">
-    <div class="container text-center">
-      <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-      <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
-    </div>
-  </section>
+    <!-- Call to Action Section -->
+    <section class="page-section bg-dark text-white">
+      <div class="container text-center">
+        <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
+        <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
+      </div>
+    </section>
 
-  <!-- Contact Section -->
-  <section class="page-section" id="contact">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="mt-0">Let's Get In Touch!</h2>
-          <hr class="divider my-4">
-          <p class="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!</p>
+
+    <!-- Contact Section -->
+    <section class="page-section" id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 class="mt-0">Let's Get In Touch!</h2>
+            <hr class="divider my-4">
+            <p class="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+            <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+            <div>+1 (202) 555-0149</div>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+            <!-- Make sure to change the email address in anchor text AND the link below! -->
+            <a class="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-          <div>+1 (202) 555-0149</div>
-        </div>
-        <div class="col-lg-4 mr-auto text-center">
-          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-          <!-- Make sure to change the email address in anchor text AND the link below! -->
-          <a class="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
-        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light py-5">
+      <div class="container">
+        <div class="small text-center text-muted">Copyright &copy; 2019 - Start Bootstrap</div>
       </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-- Footer -->
-  <footer class="bg-light py-5">
-    <div class="container">
-      <div class="small text-center text-muted">Copyright &copy; 2019 - Start Bootstrap</div>
-    </div>
-  </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/creative.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.js"></script>
 
 </body>
 
