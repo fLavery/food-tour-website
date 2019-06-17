@@ -71,6 +71,7 @@ Social Media Section
 
 - [The Palatin](https://colorlib.com/wp/template/the-palatin/)
     -This website uses the **Palatin theme** for it's booking form section'
+    
 - [NAMELIX](https://namelix.com/)
     -This website uses **Namelix** AI generated Branding based on keywords
 
@@ -86,14 +87,7 @@ Issues yet to be resolved
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+This website was deployed using Github pages and you can check it out [here](https://fionnlavery.github.io/food-tour-website/)
 
 
 ## Credits
