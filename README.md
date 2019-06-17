@@ -1,68 +1,114 @@
-# [Start Bootstrap - Creative](https://startbootstrap.com/template-overviews/creative/)
+## Dingle Food Tour Website
+Stream One Project: User-Centric Frontend Development - Code Institute
 
-[Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+This website was built for a person who is running a business where she takes people on a tour of Dingle town, Co. Kerry, where they are informed of local history and try out interesting and unusual food practices of the area. The site should allow prospective customers find out information such as tour type, dates and prices. As well as this customers should be able to send enquiries and book a food tour of various types.
+The tour operator also has a food and lifestyle instagram page which she would like to promote on the page.
+ 
+## UX
+These are eth user stories I came up with for the website:
 
-## Preview
+- As a user I want to be able to use the website easily on a variety or devices.
+ 
+- As a user I want to be able to book a tour at a certain time, on a certain date so that I can experience a food tour.
 
-[![Creative Preview](https://startbootstrap.com/assets/img/screenshots/themes/creative.png)](https://blackrockdigital.github.io/startbootstrap-creative/)
+- As a user I want to find the details of the tour and the guide so I can know which tour would suit my tastes.
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-creative/)**
+- As a user I want to be able to contact the tour guide, if there is any information I wish to knkow that isn't contained on the site.
 
-## Status
+The primary goal of the site was to get bookings for the food tour operator. With this in mind I designed the website so that the user was immediately presented with what the purpose of the site was and also a way they could book a tour. 
+A small blurb on each tour type is in the next section after a small scroll, where users can link to a section on the same page where they can get a fuller description of the tour and prices.
+I also wanted to make sure that no matter where a user was on the page, they could easily get back to the booking section so I included a fixed "Book Now" button to return them immediately to the booking section.
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-creative/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-creative.svg)](https://www.npmjs.com/package/startbootstrap-creative)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-creative.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-creative)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-creative/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-creative)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-creative/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-creative?type=dev)
+## Features
+A Single page website with 5 sections
+- Scoll to different sections on clicking links
+- Responsive layout
 
-## Download and Installation
+Zoom on scroll Mast Head image
+- When scrolling down from the masthead, the image of the food board zooms with your scroll
+Nav bar with links to different sections.
+- The nav bar is responsive and changes to a hamberger icon with dropdown menus on smaller devices.
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/creative/)
-* Install via npm: `npm i startbootstrap-creative`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-creative.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-creative)
+Booking form
+- Incorporated into the mast head for immediate access
 
-## Usage
+Fixed Book now button
+- On Scrolling away from the book now form, a "book now" button appears in the lower right corner of the page and on click scrolls you back to the book now form
 
-### Basic Usage
+Contact Form
+- Simple contact form at the end of the website
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+Social Media Section
+- A section dedicated to the guides Instagram with external link
+ 
+### Features Left to Implement
+- Multilingual support since the guide can speak several languages
+- additional animations on text and a hover zoom on images
+- database support so that the contact form and booking form actually function
+- live update from instagram feed
 
-### Advanced Usage
+## Technologies Used
 
-After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+- This project uses HTML and CSS programming languages.
+- 
+- [JQuery](https://jquery.com)
+    - The website uses **JQuery** to make the book now button appear on scroll.
 
-#### Gulp Tasks
+- [dillinger](https://dillinger.io/)
+    - The website uses **dilliger** to format the Readme.md.
 
-- `gulp` the default task that builds everything
-- `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-- `gulp js` minifies the themes JS file
-- `gulp vendor` copies dependencies from node_modules to the vendor directory
+- [Cloud9](https://c9.io) 
+ - This developer used **Cloud9** for their IDE while building the website.
 
-You must have npm and Gulp installed globally on your machine in order to use these features.
+- [BootstrapCDN](https://www.bootstrapcdn.com/)
+    - The website uses **Bootstrap4** to simplify the structure of the website and make the website responsive easily.
 
-## Bugs and Issues
+- [Google Fonts](https://fonts.google.com/)
+    - The website uses **Google fonts** to style the website fonts.
+ 
+- [Start Bootstrap Creative Theme](https://startbootstrap.com/themes/creative/)
+    - This website uses **Start Bootstrap Creative theme** for it's base structure as well as it's dependencies which are listed [here](https://github.com/BlackrockDigital/startbootstrap-creative)
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-creative/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/creative/).
+- [The Palatin](https://colorlib.com/wp/template/the-palatin/)
+    -This website uses the **Palatin theme** for it's booking form section'
+- [NAMELIX](https://namelix.com/)
+    -This website uses **Namelix** AI generated Branding based on keywords
 
-## About
+## Testing
+- I clicked all links and ensured they went to the right location, I tested the browser on Firefox & Brave(Chromium fork). 
+- I tested the responsive layout using Braves in built dev tools
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+Issues yet to be resolved
 
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
+-masthead zoom does not go back to it's starting position on scrolling back up on smaller screen sizes
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+-Scroll links to Tour details section brings you below tour title
 
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+## Deployment
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-## Copyright and License
+In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+- Different values for environment variables (Heroku Config Vars)?
+- Different configuration files?
+- Separate git branch?
 
-Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-creative/blob/gh-pages/LICENSE) license.
+In addition, if it is not obvious, you should also describe how to run your code locally.
+
+
+## Credits
+
+### Content
+- The text for whiskey tour was written by the Tour Guide
+
+### Media
+- For any photos that weren't directly from the Guide, I used images from Pixabay.com
+
+### Acknowledgements
+
+- I received inspiration for this project from Giulia Visciani
+- I want to thank Sergey
+
+
+
+
